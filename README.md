@@ -4,7 +4,8 @@ Botu Başlatmak İçin Yapmanız Gerekenler;
 
 * `Configs/config.json` , `Configs/settings.json` , `Configs/emoji.json` içlerini doldurmak.
 * Modülleri İndirmek.
-* Mongo DB Connect linkini almak eğer nasıl alacağınızı bilmiyorsanız => `https://www.youtube.com/watch?v=s_-gJn9GDus` izlemenizi tavsiye ederim.
+* Mongo DB Connect linkini almak eğer nasıl alacağınızı bilmiyorsanız => 
+`https://www.youtube.com/watch?v=s_-gJn9GDus` izlemenizi tavsiye ederim.
 
 # Eksik , Hatalı veya İstediğiniz Her Hangi Bir Kod Olursa;
 Brita#1337 (830872038004359240) Discord hesabıma ulaşabilirsiniz, eğer ulaşamazsanız discord.gg/serendia sorun yol gösterirlerrr
