@@ -1,4 +1,4 @@
-# Brita V12 Ayarlamalı Register Altyapısı
+# Brita V12 MongoDB Supervisor
 
 Botu Başlatmak İçin Yapmanız Gerekenler;
 
