@@ -10,7 +10,7 @@ module.exports = {
       .sort((a, b) => b.conf.help - a.conf.help)
       .map((x) => `\`${prefix}${x.conf.help}\``)
       .join("\n");
-      message.lineReply(embed.addField(
+      message.channel.send(embed.addField(
     `Not: [] Parantezinin içine alınanlar zorunlu <> içine alınanlar ise isteğe bağlı yapmanız gerekenler.`,
     `${list}` , true))
   }
