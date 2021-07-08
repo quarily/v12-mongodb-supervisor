@@ -14,7 +14,7 @@ module.exports = {
         //return message.channel.send(embed.setDescription(`Bu komutu kullanmak için \`${message.guild.roles.cache.find(x => x.id === conf.UstStaff).name}\` yetkisine sahip olman lazım`))
     
 let x = args[0];
-if(!x) return message.channel.send(embed.setDescription(`Bir işlem belirtiniz. \`${conf.prefix}toplantı katıldı-ver / katıldı-al / unmuteall / muteall\` `)).catch(e => { })
+if(!x) return message.channel.send(embed.setDescription(`Bir işlem belirtiniz. \`.toplantı katıldı-ver / katıldı-al / unmuteall / muteall\` `)).catch(e => { })
 
 if(x === "katıldıal"){
     let membr = message.guild.members.cache.filter(member => member.roles.cache.has(conf.Toplantı.Katıldı)  && !member.user.bot);
